@@ -1,5 +1,5 @@
 {
-    "name": "gokure/hyperf-tinker",
+    "name": "xtwoend/hyperf-tinker",
     "description": "A Powerful REPL for the Hyperf framework.",
     "keywords": ["hyperf", "tinker", "repl", "psysh"],
     "license": "MIT",
@@ -11,20 +11,20 @@
         }
     ],
     "require": {
-        "php": ">=7.2",
+        "php": ">=7.2|^8.0",
         "ext-swoole": ">=4.4",
-        "hyperf/contract": "^1.0|^2.0",
-        "hyperf/di": "^1.0|^2.0",
-        "hyperf/command": "^1.0|^2.0",
+        "hyperf/contract": "^2.0|^3.0",
+        "hyperf/di": "^2.0|^3.0",
+        "hyperf/command": "^2.0|^3.0",
         "psy/psysh": "^0.10.6"
     },
     "require-dev": {
-        "hyperf/database": "^1.0|^2.0",
-        "hyperf/testing": "^1.0|^2.0",
+        "hyperf/database": "^2.0|^3.0",
+        "hyperf/testing": "^2.0|^3.0",
         "mockery/mockery": "^1.4"
     },
     "suggest": {
-        "hyperf/database": "The Hypyerf Database package (^1.0|^2.0)."
+        "hyperf/database": "The Hypyerf Database package (^2.0||^3.0)."
     },
     "autoload": {
         "psr-4": {
