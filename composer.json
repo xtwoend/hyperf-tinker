@@ -16,7 +16,7 @@
         "hyperf/contract": "^2.0|^3.0",
         "hyperf/di": "^2.0|^3.0",
         "hyperf/command": "^2.0|^3.0",
-        "psy/psysh": "^0.10.6"
+        "psy/psysh": "^1.0"
     },
     "require-dev": {
         "hyperf/database": "^2.0|^3.0",
